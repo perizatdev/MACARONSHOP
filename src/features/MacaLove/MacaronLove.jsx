@@ -7,7 +7,7 @@ export default function MacaLove() {
     return (
         <>
             <div className="bg-cover bg-center w-screen h-[500px] "
-                style={{ backgroundImage: `url(${sevgi})`}}>
+                style={{ backgroundImage: `url(${sevgi})` }}>
                 <Container>
                     <div className='mt-[190px]'>
                         <div className=' text-[#292929 w-[500px] pt-[30px] ml-[700px]' >
@@ -29,7 +29,6 @@ export default function MacaLove() {
             </div>
 
             <Cards />
-            <Presents/>
         </>
     )
 }
