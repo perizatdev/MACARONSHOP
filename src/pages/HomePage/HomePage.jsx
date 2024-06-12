@@ -1,15 +1,13 @@
 import React from 'react'
 import MacaLove from '../../features/MacaLove/MacaronLove'
-import Sale from '../../features/Sale/Sale'
-import Nabor from '../../features/Nabor/ui/Nabor'
+import Presents from '../../features/MacaLove/Presents'
 
 
 function HomePage() {
   return (
     <div>
        <MacaLove/>
-       <Sale/>
-       <Nabor/>
+       <Presents/>
     </div>
   )
 }
