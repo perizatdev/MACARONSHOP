@@ -1,7 +1,10 @@
-import { configureStore } from '@reduxjs/toolkit'
+import { configureStore } from '@reduxjs/toolkit';
+import profileSlice from '../features/Profile/store/slice'
 
-export const store = configureStore({
-	reducer: {
-		// branch: filialSlice,
-	},
-})
+const store = configureStore({
+    reducer: {
+        profile: profileSlice,
+    },
+});
+
+export default store;

@@ -1,4 +1,5 @@
 import React from 'react'
+
 import like from '../../shared/assets/Askat/like.svg'
 import burger from '../../shared/assets/Askat/burger.svg'
 import inst from '../../shared/assets/Askat/inst.svg'
@@ -9,7 +10,7 @@ import Container from '../../shared/helpers/Container.jsx'
 
 function Footer() {
   return (
-    <div className='bg-[#EBEDEE]'>
+    <div className='bg-[#EBEDEE] mt-[40px]'>
       <Container>
       <div className=' flex gap-12 border h-[318px]'>
         <div className='boder flex flex-col justify-evenly'>
@@ -69,7 +70,7 @@ function Footer() {
             </div>
             <div className='flex mt-12 gap-3'>
               <img className=' w-[40px] h-[40px]' src={inst} alt='' />
-              <img className=' w-[40px] h-[40px]' src={face} alt='' />'
+              <img className=' w-[40px] h-[40px]' src={face} alt='' />
               <img className=' w-[40px] h-[40px]' src={tvi} alt='' />
             </div>
           </div>

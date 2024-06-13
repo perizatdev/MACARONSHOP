@@ -9,7 +9,7 @@ export default function MacaLove() {
             <div className="bg-cover bg-center w-screen h-[500px] "
                 style={{ backgroundImage: `url(${sevgi})` }}>
                 <Container>
-                    <div className='mt-[190px]'>
+                    <div className='mt-[15px]'>
                         <div className=' text-[#292929 w-[500px] pt-[30px] ml-[700px]' >
                             <h4 className='text-[22px] flex items-center uppercase ml-[115px] font-semibold mt-[100px]'>Macaronshop</h4>
                             <div className='flex'>
