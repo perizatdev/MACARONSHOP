@@ -28,7 +28,7 @@ function Nabor() {
   const handleClose = () => setOpen(false);
 
   const handleSubmit = () => {
-    console.log("Button clicked");
+    // console.log("Button clicked");
     handleClose();
   };
 
